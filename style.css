@@ -258,6 +258,7 @@ body.dark-mode .profile-pic{
   background-color: #ccc;
   transition: .4s;
   border-radius: 20px; 
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
 .slider:before {
   position: absolute;
@@ -269,6 +270,7 @@ body.dark-mode .profile-pic{
   background-color: white;
   transition: .4s;
   border-radius: 50%;  
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
 input:checked + .slider {
   background-color: #333;
